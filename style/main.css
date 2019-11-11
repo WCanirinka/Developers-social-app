@@ -28,8 +28,8 @@ body {
 .span-icons {
   height: 0.9rem; }
 
-#location-icon {
-  margin-left: 2.7rem; }
+.location-icon {
+  margin-left: 43.2px; }
 
 .fa-map-marker-alt {
   background-color: #eff0f2;
@@ -44,15 +44,15 @@ body {
 
 #location-city {
   text-decoration: underline;
-  text-decoration-color: #c2c8ce; }
+  text-decoration-color: #414464; }
 
 .first-style {
-  color: #4e50b8;
+  color: #4E50B8;
   display: inline-block;
   font-size: 1.5rem; }
 
 .second-style {
-  color: #f0916e;
+  color: #F0916E;
   display: inline-block;
   font-size: 1.5rem; }
 
@@ -87,6 +87,13 @@ main {
 .user-profile {
   background-color: #fff;
   border-radius: 5px; }
+
+.nounderline {
+  text-decoration: none;
+  color: #414464; }
+
+.nounderline:hover {
+  text-decoration: none; }
 
 .foto-section {
   border-radius: 5px;
