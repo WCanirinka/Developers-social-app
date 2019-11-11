@@ -149,11 +149,14 @@ ul#menu-account {
   padding-left: 2.5%; }
 
 .list-account {
-  color: #c2c8ce;
+  color: #414464;
   font-family: 'Lato', sans-serif;
   font-size: 1.1rem;
   font-weight: bold;
   margin-left: 2.5%; }
+
+.list-account:hover {
+  cursor: pointer; }
 
 /* Detail Page of Contact Style */
 .current-profile-photo {
@@ -188,7 +191,7 @@ div#galerie > .photos {
   width: 100%;
   margin-top: 5%;
   border-radius: 5px;
-  background-image: url("https://img.culturacolectiva.com/content/2017/12/21/1513881084568/buena-ortografia-medium.jpg");
+  background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
   background-position: center center;
   background-size: cover;
   position: relative; }
