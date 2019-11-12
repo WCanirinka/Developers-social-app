@@ -10,7 +10,7 @@
     <br />    
     <br />
     ·
-     <a href="https://rawcdn.githack.com/WCanirinka/Developers-social-app/d20dec4b315d54c09bf6839cca08413ad94e6192/index.html">Live Demo</a>
+     <a href="https://rawcdn.githack.com/WCanirinka/Developers-social-app/ac0d43d1e217d876c9ef0a2f3ee613fe35f70f5b/index.html">Live Demo</a>
     ·    
   </p>
 </p>
