@@ -11,15 +11,12 @@ body {
   width: 100vw;
   height: 100vh; }
 
-/* Navigation Bar Style */
-.fas,
-.far {
+.icon-page {
   height: 0.9rem;
   font-size: 0.8rem;
-  width: 0.9rem;
   fill: black; }
 
-#navigation-bar {
+.navigation-bar {
   border-radius: 5px 5px 1px 1px;
   height: 60px;
   width: 100%;
@@ -31,18 +28,18 @@ body {
 .location-icon {
   margin-left: 43.2px; }
 
-.fa-map-marker-alt {
+.compass {
   background-color: #eff0f2;
   border-radius: 5px;
-  color: #c2c8ce;
+  color: #90969c;
   font-size: 1.2rem;
   height: 2rem;
   width: 2rem; }
 
-#location {
-  color: #c2c8ce; }
+.location {
+  color: #90969c; }
 
-#location-city {
+.location-city {
   text-decoration: underline;
   text-decoration-color: #414464; }
 
@@ -58,7 +55,11 @@ body {
 
 ul.nav-icons {
   list-style: none;
+  margin-top: -15px;
   margin-right: 2.7rem; }
+
+ul.nav-icons:hover {
+  cursor: pointer; }
 
 ul.nav-icons > li {
   display: inline;
@@ -67,12 +68,11 @@ ul.nav-icons > li {
   color: #c2c8ce; }
 
 .user-icons {
-  color: #c2c8ce;
+  color: #90969c;
   height: 1.3rem;
   font-size: 1.3rem;
   width: 1.3rem; }
 
-/* Page's Main Section Style */
 main {
   height: calc(100% - 60px);
   width: 100%; }
@@ -93,14 +93,16 @@ main {
   color: #414464; }
 
 .nounderline:hover {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #4E50B8; }
 
 .foto-section {
   border-radius: 5px;
   margin-top: 2.5%; }
 
 .user-photo {
-  width: 35%;
+  width: 27%;
+  height: 7%;
   border-radius: 5px; }
 
 .user-info-wrapper {
@@ -108,7 +110,9 @@ main {
   min-width: 174px; }
 
 .account-info {
-  height: 50%; }
+  height: 50%;
+  padding-left: 5px;
+  padding-top: 8px; }
 
 .custom-setting {
   color: #c2c8ce;
@@ -123,13 +127,13 @@ main {
 .inner-span-info {
   color: #4e50b8; }
 
-#info-line {
+.info-line {
   border-bottom: 1px #eff0f2 solid;
   border-width: 100%;
   margin: 0; }
 
-.fa-heart {
-  color: red;
+.fa-heart-o {
+  color: #F0916E;
   font-size: 1rem; }
 
 .premium-button {
@@ -139,10 +143,10 @@ main {
   font-family: 'Lato', sans-serif;
   padding: 2px; }
 
-.acquittances-info {
+.dev-info {
   margin: 2.5% 0; }
 
-ul#menu-account {
+ul.menu-account {
   list-style: none;
   margin-top: 10%;
   height: 60%;
@@ -177,7 +181,7 @@ ul#menu-account {
   top: 33.333%;
   right: -15%; }
 
-div#galerie > .photos {
+div.galerie > .photos {
   border-radius: 5px;
   width: 11%; }
 
@@ -233,8 +237,8 @@ div#galerie > .photos {
   width: 10vw;
   height: 8vh; }
 
-#previous-button,
-#next-button {
+.back-button,
+.next-button {
   border-radius: 5px;
   width: 3vw;
   height: 6vh;
@@ -243,29 +247,29 @@ div#galerie > .photos {
   font-size: 1.2rem;
   background-color: #fff; }
 
-#prev,
-#next {
+.back,
+.next {
   font-size: 1.4rem;
   color: #787878; }
 
-#like-button,
-#dislike-button {
+.like-button,
+.dislike-button {
   border-radius: 5px;
   width: 4vw;
   outline: none;
   border: none; }
 
-#like-button {
+.like-button {
   background-color: #4e50b8; }
 
-#heart {
+.heart {
   color: #fff;
   font-size: 1.4rem; }
 
-#dislike-button {
+.dislike-button {
   background-color: #f0916e; }
 
-#no-heart {
+.no-heart {
   color: #fff;
   font-size: 1.4rem; }
 
@@ -298,6 +302,7 @@ div#galerie > .photos {
 
 .purchase-anchor {
   background-color: #4e50b8;
+  text-decoration: none;
   border-radius: 5px;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
@@ -306,7 +311,7 @@ div#galerie > .photos {
   text-align: center;
   color: #fff; }
 
-.fa-stream {
+.fa-sliders {
   font-size: 1.6rem;
   margin-right: 2%;
   width: 1.6rem;
@@ -333,13 +338,13 @@ div#galerie > .photos {
   height: 1vh;
   width: 2%; }
 
-#background-purple {
+.background-purple {
   background-color: #4e50b8;
   border-radius: 5px;
   height: 2.4rem;
   width: 2.4rem; }
 
-.fa-map-marked-alt {
+.compass2 {
   font-size: 1.3rem;
   color: white;
   width: 1.3rem;
@@ -373,7 +378,7 @@ div#galerie > .photos {
   width: 60%; }
 
 @media screen and (max-width: 1024px) {
-  #navigation-bar {
+  .navigation-bar {
     display: none !important; }
 
   .user-information {
@@ -397,7 +402,7 @@ div#galerie > .photos {
   .link-photo {
     width: 1.5vw; }
 
-  .acquittances-info {
+  .dev-info {
     height: 50vh;
     width: 100%; }
 
@@ -413,23 +418,23 @@ div#galerie > .photos {
     width: 10rem;
     height: 4rem; }
 
-  #like-button,
-  #dislike-button {
+  .like-button,
+  .dislike-button {
     width: 4rem; }
 
-  #heart,
-  #no-heart {
+  .heart,
+  .no-heart {
     font-size: 2.8rem;
     width: 2.8rem;
     height: 2.8rem; }
 
-  #previous-button,
-  #next-button {
+  .back-button,
+  .next-button {
     width: 3rem;
     height: 3rem; }
 
-  #prev,
-  #next {
+  .prev,
+  .next {
     font-size: 2.6rem;
     width: 2.6rem;
     height: 2.6rem; } }
@@ -455,7 +460,7 @@ div#galerie > .photos {
   .personal-info-contact {
     height: 60%; }
 
-  .acquittances-info,
+  .dev-info,
   .user-information {
     width: 23%;
     height: calc(100% - 60px);

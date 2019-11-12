@@ -13,17 +13,16 @@
     height: 100vh;
   }
   
-  /* Navigation Bar Style */
-  
-  .fas,
-  .far {
+  .icon-page {
     height: 0.9rem;
     font-size: 0.8rem;
     width: 0.9rem;
     fill: black;
   }
+
+
   
-  #navigation-bar {
+  .navigation-bar {
     border-radius: 5px 5px 1px 1px;
     height: 60px;
     width: 100%;
@@ -34,11 +33,11 @@
     height: 0.9rem;
   }
   
-  #location-icon {
-    margin-left: 2.7rem;
+  .location-icon {
+    margin-left: 43.2px;
   }
   
-  .fa-map-marker-alt {
+  .compass {
     background-color: #eff0f2;
     border-radius: 5px;
     color: #c2c8ce;
@@ -47,11 +46,11 @@
     width: 2rem;
   }
   
-  #location {
+  .location {
     color: #c2c8ce;
   }
   
-  #location-city {
+  .location-city {
     text-decoration: underline;
     text-decoration-color: #c2c8ce;
   }
@@ -81,13 +80,11 @@
   }
   
   .user-icons {
-    color: #c2c8ce;
+    color: #90969c;
     height: 1.3rem;
     font-size: 1.3rem;
     width: 1.3rem;
   }
-  
-  /* Page's Main Section Style */
   
   main {
     height: calc(100% - 60px);
@@ -109,7 +106,8 @@
   }
   
   .user-photo {
-    width: 35%;
+    width: 25%;
+    height: 7%;
     border-radius: 5px;
   }
   
@@ -120,6 +118,8 @@
   
   .account-info {
     height: 50%;
+    padding-left: 5px;
+    padding-top: 5px;
   }
   
   .custom-setting {
@@ -144,8 +144,8 @@
     margin: 0;
   }
   
-  .fa-heart {
-    color: red;
+  .fa-heart-o {
+    color: #f0916e;
     font-size: 1rem;
   }
   
@@ -157,19 +157,19 @@
     padding: 2px;
   }
   
-  ul#menu-account {
+  ul.menu-account {
     list-style: none;
     margin-top: 10%;
     height: 60%;
     padding-left: 2.5%;
   }
   
-  ul#menu-account > li > i {
-    color: #c2c8ce;
+  ul.menu-account > li > i {
+    color: #90969c;
   }
   
   .list-account {
-    color: #c2c8ce;
+    color: #414464;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
@@ -261,7 +261,7 @@
     color: #c2c8ce;
   }
   
-  .green-circle {
+  .online-mark {
     border-radius: 100%;
     background-color: green;
     display: inline-block;
@@ -283,11 +283,11 @@
   
   /* Chat Detail Page */
   
-  .fa-sms {
+  .fa-commenting-o {
     width: 100%;
     height: 100%;
-    font-size: 10rem;
-    color: #eff0f2;
+    font-size: 200px;
+    color: #afb0bd;
   }
   
   @media screen and (max-width: 1024px) {
