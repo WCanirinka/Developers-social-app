@@ -84,8 +84,6 @@
     width: 1.3rem;
   }
   
-  /* Page's Main Section Style */
-  
   main {
     height: calc(100% - 60px);
     width: 100%;
@@ -173,8 +171,6 @@
     margin-left: 2.5%;
   }
   
-  /* Chat Detail Pahe Style */
-  
   .chat-container {
     background-color: #fff;
     border-radius: 5px;
@@ -201,8 +197,8 @@
     height: calc(100% - 105px);
     overflow-y: scroll;
     overflow: auto;
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
   
   .scroll-list-chat::-webkit-scrollbar {
@@ -290,8 +286,8 @@
     height: calc(100% - 120px);
     overflow-y: scroll;
     overflow: auto;
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
   
   .scroll-chat-detail::-webkit-scrollbar {

@@ -70,7 +70,6 @@ ul.nav-icons > li {
   font-size: 1.3rem;
   width: 1.3rem; }
 
-/* Page's Main Section Style */
 main {
   height: calc(100% - 60px);
   width: 100%; }
@@ -143,7 +142,6 @@ ul.menu-account {
   font-weight: bold;
   margin-left: 2.5%; }
 
-/* Chat Detail Pahe Style */
 .chat-container {
   background-color: #fff;
   border-radius: 5px;
@@ -168,9 +166,7 @@ ul.menu-account {
   overflow-y: scroll;
   overflow: auto;
   -ms-overflow-style: none;
-  /* IE 11 */
-  scrollbar-width: none;
-  /* Firefox 64 */ }
+  scrollbar-width: none; }
 
 .scroll-list-chat::-webkit-scrollbar {
   display: none; }
@@ -244,9 +240,7 @@ div.chat-elipsis {
   overflow-y: scroll;
   overflow: auto;
   -ms-overflow-style: none;
-  /* IE 11 */
-  scrollbar-width: none;
-  /* Firefox 64 */ }
+  scrollbar-width: none; }
 
 .scroll-chat-detail::-webkit-scrollbar {
   display: none; }
