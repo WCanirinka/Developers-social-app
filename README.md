@@ -35,6 +35,7 @@
 
 * [Html]()
 * [CSS]()
+* [Bootstrap]()
 * [VSCODE]()
 
 
