@@ -14,7 +14,7 @@ body {
 .icon-page {
   height: 0.9rem;
   font-size: 0.8rem;
-  fill: black; }
+  fill: #000; }
 
 .navigation-bar {
   border-radius: 5px 5px 1px 1px;

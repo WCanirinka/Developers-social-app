@@ -17,7 +17,7 @@
     height: 0.9rem;
     font-size: 0.8rem;
     width: 0.9rem;
-    fill: black;
+    fill: #000;
   }
 
 
@@ -73,7 +73,7 @@
   }
   
   ul.nav-icons > li {
-    color: #c2c8ce;
+    color: #90969c;
     display: inline;
     margin: 0 0.7rem;
     font-size: 1.5rem;
@@ -138,7 +138,7 @@
     color: #4e50b8;
   }
   
-  #info-line {
+  .info-line {
     border-bottom: 1px #eff0f2 solid;
     border-width: 100%;
     margin: 0;
@@ -199,7 +199,7 @@
     height: 50px;
   }
   
-  #scroll-list-chat {
+  .scroll-list-chat {
     width: 100%;
     height: calc(100% - 105px);
     overflow-y: scroll;
@@ -208,7 +208,7 @@
     scrollbar-width: none; /* Firefox 64 */
   }
   
-  #scroll-list-chat::-webkit-scrollbar {
+  .scroll-list-chat::-webkit-scrollbar {
     display: none;
   }
   
@@ -229,7 +229,7 @@
     border-top: 1px #eff0f2 solid;
   }
   
-  #chat-detail {
+  .chat-detail {
     width: 66%;
     height: 100%;
     overflow: hidden;
@@ -308,11 +308,11 @@
       background-color: transparent;
     }
   
-    #list-chat {
+    .list-chat {
       width: 100%;
     }
   
-    #chat-detail {
+    .chat-detail {
       display: none !important;
     }
   
@@ -320,7 +320,7 @@
       display: none !important;
     }
   
-    #scroll-list-chat {
+    .scroll-list-chat {
       height: calc(100% - 55px);
     }
   
