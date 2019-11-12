@@ -35,17 +35,17 @@
     margin-left: 2.7rem;
   }
   
-  .fa-map-marker-alt {
+  .compass {
     background-color: #eff0f2;
     border-radius: 5px;
-    color: #c2c8ce;
+    color: #90969c;
     font-size: 1.2rem;
     height: 2rem;
     width: 2rem;
   }
   
   .location {
-    color: #c2c8ce;
+    color: #90969c;
   }
   
   .location-city {
@@ -78,7 +78,7 @@
   }
   
   .user-icons {
-    color: #c2c8ce;
+    color: #90969c;
     height: 1.3rem;
     font-size: 1.3rem;
     width: 1.3rem;
@@ -106,7 +106,8 @@
   }
   
   .user-photo {
-    width: 35%;
+    width: 25%;
+    height: 7%;
     border-radius: 5px;
   }
   
@@ -117,6 +118,8 @@
   
   .account-info {
     height: 50%;
+    padding-left: 5px;
+    padding-top: 5px;
   }
   
   .custom-setting {
@@ -163,7 +166,7 @@
   }
   
   .list-account {
-    color: #c2c8ce;
+    color: #414464;
     font-family: 'Lato', sans-serif;
     font-size: 1.1rem;
     font-weight: bold;
@@ -342,7 +345,7 @@
     border: 1px solid #eff0f2;
   }
   
-  .fa-smile {
+  .fa-smile-o {
     position: relative;
     left: -10%;
   }

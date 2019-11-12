@@ -47,7 +47,7 @@
   }
   
   .location {
-    color: #c2c8ce;
+    color: #90969c;
   }
   
   .location-city {
@@ -176,8 +176,6 @@
     margin-left: 2.5%;
   }
   
-  /* Chat Row Style */
-  
   .chat-container {
     background-color: #fff;
     border-radius: 5px;
@@ -186,7 +184,7 @@
     width: 71%;
   }
   
-  #list-chat {
+  .list-chat {
     width: 34%;
     height: 100%;
     border-right: 1px #eff0f2 solid;
@@ -204,8 +202,8 @@
     height: calc(100% - 105px);
     overflow-y: scroll;
     overflow: auto;
-    -ms-overflow-style: none; /* IE 11 */
-    scrollbar-width: none; /* Firefox 64 */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
   
   .scroll-list-chat::-webkit-scrollbar {
@@ -280,8 +278,6 @@
   .checked {
     color: #4e50b8;
   }
-  
-  /* Chat Detail Page */
   
   .fa-commenting-o {
     width: 100%;

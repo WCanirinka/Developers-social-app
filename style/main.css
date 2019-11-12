@@ -162,7 +162,6 @@ ul.menu-account {
 .list-account:hover {
   cursor: pointer; }
 
-/* Detail Page of Contact Style */
 .current-profile-photo {
   position: relative;
   width: 11%; }
@@ -273,7 +272,6 @@ div.galerie > .photos {
   color: #fff;
   font-size: 1.4rem; }
 
-/* Contact Information Style */
 .upgrade-account {
   border-radius: 5px;
   background-color: #fff;
@@ -281,11 +279,11 @@ div.galerie > .photos {
   width: 100%;
   margin-bottom: 2.5%; }
 
-.become-popular {
+.upgrade {
   width: 100%; }
 
-.become-popular > i,
-.fa-crown {
+.upgrade i,
+.fa-gift {
   color: #f0916e;
   font-size: 1.6rem;
   margin-right: 1.6rem; }
