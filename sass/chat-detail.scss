@@ -22,6 +22,8 @@ body {
 
 .navigation-bar {
   border-radius: 5px 5px 1px 1px;
+  display: flex;
+  justify-content: space-between;
   height: 60px;
   width: 100%;
   background-color: #fff;
@@ -33,9 +35,11 @@ body {
 
 .location-icon {
   margin-left: 2.7rem;
+  display: flex;
 }
 
 .compass {
+  display: flex;
   background-color: #eff0f2;
   border-radius: 5px;
   color: #90969c;
@@ -92,7 +96,7 @@ main {
 .body-page {
   height: 100%;
   width: 100%;
-  padding: 0px 30px;
+  padding: 0px 50px;
 }
 
 .user-information {
@@ -172,7 +176,7 @@ ul.menu-account {
   list-style: none;
   margin-top: 10%;
   height: 60%;
-  padding-left: 2.5%;
+  padding-left: 10px;
 }
 
 .list-account {

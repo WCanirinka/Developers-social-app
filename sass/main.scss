@@ -22,7 +22,7 @@ body {
 .navigation-bar {
   border-radius: 5px 5px 1px 1px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   height: 60px;
   width: 100%;
   background-color: #fff;
@@ -34,9 +34,11 @@ body {
 
 .location-icon {
   margin-left: 43.2px;
+  display: flex;
 }
 
 .compass {
+  display: flex;
   background-color: #eff0f2;
   border-radius: 5px;
   color: #90969c;
@@ -122,6 +124,10 @@ main {
   color: #4e50b8;
 }
 
+.name-title{
+  font-size: 15px;
+}
+
 .foto-section {
   border-radius: 5px;
   margin-top: 2.5%;
@@ -189,7 +195,7 @@ ul.menu-account {
   list-style: none;
   margin-top: 10%;
   height: 60%;
-  padding-left: 15%;
+  padding-left: 10px;
 }
 
 .list-account {
