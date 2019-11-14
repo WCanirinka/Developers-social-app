@@ -70,6 +70,7 @@ body {
 }
 
 ul.nav-icons {
+  display: flex;
   list-style: none;
   margin-right: 2.7rem;
 }
@@ -96,7 +97,7 @@ main {
 .body-page {
   height: 100%;
   width: 100%;
-  padding: 0px 40px;
+  padding: 0 40px;
 }
 
 .user-information {
@@ -119,7 +120,7 @@ main {
   color: #4e50b8;
 }
 
-.name-title{
+.name-title {
   font-size: 15px;
 }
 

@@ -69,8 +69,8 @@ body {
 }
 
 ul.nav-icons {
+  display: flex;
   list-style: none;
-  margin-top: -15px;
   margin-right: 2.7rem;
 }
 
@@ -100,7 +100,7 @@ main {
 .body-page {
   height: 100%;
   width: 100%;
-  padding: 0px 40px;
+  padding: 0 40px;
 }
 
 .user-information {
@@ -111,7 +111,7 @@ main {
 .user-profile {
   background-color: #fff;
   border-radius: 5px;
-  padding: 10px 5px 0px 15px;
+  padding: 10px 5px 0 15px;
 }
 
 .nounderline {
@@ -124,7 +124,7 @@ main {
   color: #4e50b8;
 }
 
-.name-title{
+.name-title {
   font-size: 15px;
 }
 
@@ -353,6 +353,10 @@ div.galerie > .photos {
   width: 100%;
 }
 
+h2 {
+  font-size: 16px;
+}
+
 .upgrade i,
 .fa-crown {
   color: #f0916e;
@@ -444,11 +448,11 @@ div.galerie > .photos {
   margin-bottom: 2%;
 }
 
-.filter{
+.filter {
   display: flex;
 }
 
-.filter-title{
+.filter-title {
   font-size: 15px;
 }
 

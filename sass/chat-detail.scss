@@ -70,6 +70,7 @@ body {
 }
 
 ul.nav-icons {
+  display: flex;
   list-style: none;
   margin-right: 2.7rem;
 }
@@ -96,7 +97,7 @@ main {
 .body-page {
   height: 100%;
   width: 100%;
-  padding: 0px 50px;
+  padding: 0 50px;
 }
 
 .user-information {
@@ -193,6 +194,24 @@ ul.menu-account {
   height: calc(100% - 60px);
   margin: 2.5% 2.5% 0 1.5%;
   width: 71%;
+}
+
+.background-purple {
+  background-color: #4e50b8;
+  border-radius: 5px;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.name-title {
+  font-size: 15px;
+}
+
+.compass2 {
+  font-size: 1.3rem;
+  color: white;
+  width: 1.3rem;
+  height: 1.3rem;
 }
 
 .list-chat {
