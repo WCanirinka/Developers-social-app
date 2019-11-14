@@ -92,6 +92,7 @@ main {
 .body-page {
   height: 100%;
   width: 100%;
+  padding: 0px 30px;
 }
 
 .user-information {
@@ -102,6 +103,16 @@ main {
   background-color: #fff;
   border-radius: 5px;
   padding: 10px 5px 0 10px;
+}
+
+.nounderline {
+  text-decoration: none;
+  color: #414464;
+}
+
+.nounderline:hover {
+  text-decoration: none;
+  color: #4e50b8;
 }
 
 .user-photo {

@@ -21,6 +21,8 @@ body {
 
 .navigation-bar {
   border-radius: 5px 5px 1px 1px;
+  display: flex;
+  justify-content: center;
   height: 60px;
   width: 100%;
   background-color: #fff;
@@ -96,16 +98,18 @@ main {
 .body-page {
   height: 100%;
   width: 100%;
+  padding: 0px 40px;
 }
 
 .user-information {
   margin-top: 2.5%;
+  padding: 10px 5px 0 15px;
 }
 
 .user-profile {
   background-color: #fff;
   border-radius: 5px;
-  padding: 10px 5px 0 10px;
+  padding: 10px 5px 0px 15px;
 }
 
 .nounderline {
@@ -121,6 +125,7 @@ main {
 .foto-section {
   border-radius: 5px;
   margin-top: 2.5%;
+  padding: 10px 15px 6px 15px;
 }
 
 .user-photo {
@@ -177,13 +182,14 @@ main {
 
 .dev-info {
   margin: 2.5% 0;
+  padding: 10px 15px 6px 15px;
 }
 
 ul.menu-account {
   list-style: none;
   margin-top: 10%;
   height: 60%;
-  padding-left: 2.5%;
+  padding-left: 15%;
 }
 
 .list-account {
@@ -332,8 +338,8 @@ div.galerie > .photos {
 .upgrade-account {
   border-radius: 5px;
   background-color: #fff;
-  padding: 2%;
-  width: 100%;
+  padding: 10px 15px 6px 15px;
+  width: 80%;
   margin-bottom: 2.5%;
 }
 
@@ -430,6 +436,14 @@ div.galerie > .photos {
   padding: 2% 5%;
   width: 75%;
   margin-bottom: 2%;
+}
+
+.filter{
+  display: flex;
+}
+
+.filter-title{
+  font-size: 15px;
 }
 
 .margins {
@@ -546,6 +560,7 @@ div.galerie > .photos {
   .new-container {
     width: 100%;
     height: 85%;
+    padding-top: 10px;
   }
 
   .name-contact {
@@ -566,5 +581,6 @@ div.galerie > .photos {
 
   .personal-information-contact {
     height: 90%;
+    padding-top: 10px;
   }
 }

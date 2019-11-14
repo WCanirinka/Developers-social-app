@@ -14,7 +14,7 @@
 </head>
 <body>
     <header>
-        <nav class="d-flex justify-content-between align-items-center navigation-bar">
+        <nav class="justify-content-between align-items-center navigation-bar">
             <span class="nav-icons d-flex align-items-center location-icon">   
                     <i class="fa fa-compass d-flex justify-content-center align-items-center compass"></i>
                     &nbsp;<span class="location">Location: </span>&nbsp;&nbsp;&nbsp;
@@ -24,7 +24,9 @@
             </span>
             <span class="nav-icons d-flex align-items-center">
                 <span class="title">
-                    <span class="first-style">Dev<span class="second-style">IT</span></span>
+                    <a class="nounderline" href="index.html">
+                        <h1><span class="first-style">Dev<span class="second-style">IT</span></span></h1>
+                    </a>
                 </span>
             </span>
             <ul class="nav-icons d-flex mb-0 icon-page">
@@ -47,7 +49,7 @@
         <div class="body-page row m-0 d-flex">
             <div class="user-information">
                 <div class="user-profile">
-                    <div class="profile-info d-flex flex-row">
+                    <div class="profile-info d-flex">
                         <img class="img-fluid user-photo" src="http://images2.programmersought.com/421/ef/ef727b53a1911f9371298817f38a1aad.JPEG" alt="men">
                         <div class="user-info-wrapper d-flex flex-column pl-1 justify-content-center">
                             <div class="account-info d-flex flex-column justify-content-center">
@@ -83,8 +85,10 @@
                         <span class="list-account">Channel and Streaming</span>
                     </li>
                     <li>
-                        <i class="far fa-comments user-icons icon-page"></i>
-                        <span><a class="list-account nounderline" href="chat-page.html">Messages</a></span>
+                        <a class="nounderline" href="chat-page.html">
+                            <i class="far fa-comments user-icons icon-page"></i>
+                            <span class="list-account">Messages</span>
+                        </a>
                     </li>
                     <li>
                         <i class="far fa-star user-icons icon-page"></i>
@@ -156,52 +160,55 @@
             
             <div class="dev-info mb-0 p-0 d-flex flex-column">
                 <div class="upgrade-account up-acc-media-query d-flex flex-column align-items-center justify-content-center">
-                    <div class="upgrade d-flex align-self-center">
-                        <i class="fas fa-crown icon-page"></i>
-                        <h5>Upgrade for more</h5>
+                    <div>
+                        <div class="upgrade d-flex align-self-center">
+                            <i class="fas fa-crown icon-page"></i>
+                            <h5>Upgrade for more</h5>                        
+                        </div>
+                        <span class="become-header text-align-left">Receive notification of new discussions and people nearby to connect to</span>                   
                     </div>
-                    <span class="become-header text-align-left">Receive notification of new discussions and people nearby to connect to</span>
                     <a class="purchase-anchor" href="#">Upgrade to pro</a>
                 </div>
                 <div class="new-container d-flex flex-column justify-content-between">
-
-                    <div class="d-flex upgrade-account filter align-items-center justify-content-between">
-                        <h6 class="m-0">Filter search</h6>
+                    <div class="filter upgrade-account filter align-items-center justify-content-between">
+                        <h3 class="m-0 filter-title">Filter search</h3>
                         <i class="fa fa-sliders icon-page"></i>
                     </div>
-                    <div class="upgrade-account personal-information-contact d-flex flex-column justify-content-between align-items-center">
-                        <div class="contact-info name-contact d-flex flex-column justify-content-around">
-                            <span class="become-span"> Name & Age</span>
-                            <div class="contact-ns d-flex justify-content-between align-items-center"> 
-                                <h5 class="m-0">Jean-De-Dieu Sabushimike, 27</h5>
-                                <div class="green-circle"></div>
-                            </div>
-                        </div>
-                        <div class="contact-info personal-info-contact d-flex flex-column align-items-start justify-content-between">
-                            <div class="margins w-100 d-flex justify-content-between align-items-center">
-                                <div>
-                                    <span class="become-span"> Location</span>
-                                    <h6 class="m-0 become-header">Burundi, Bujumbura</h6>
-                                </div>
-                                <div class="d-flex justify-content-center align-items-center background-purple">
-                                    <i class="fa fa-compass icon-page compass2"></i>
+                    <div class="personal-information-contact">
+                        <div class="upgrade-account d-flex flex-column justify-content-between align-items-center">
+                            <div class="contact-info name-contact d-flex flex-column justify-content-around">
+                                <span class="become-span"> Name & Age</span>
+                                <div class="contact-ns d-flex justify-content-between align-items-center"> 
+                                    <h5 class="m-0">Jean-De-Dieu Sabushimike, 27</h5>
+                                    <div class="green-circle"></div>
                                 </div>
                             </div>
-                            <div class="margins">
-                                <span class="become-span">Interests</span>
-                                <h6 class="m-0 become-header">Research, Open source projects, Devfest, Hackton.</h6>
+                            <div class="contact-info personal-info-contact d-flex flex-column align-items-start justify-content-between">
+                                <div class="margins w-100 d-flex justify-content-between align-items-center">
+                                    <div>
+                                        <span class="become-span"> Location</span>
+                                        <h6 class="m-0 become-header">Burundi, Bujumbura</h6>
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center background-purple">
+                                        <i class="fa fa-compass icon-page compass2"></i>
+                                    </div>
+                                </div>
+                                <div class="margins">
+                                    <span class="become-span">Interests</span>
+                                    <h6 class="m-0 become-header">Research, Open source projects, Devfest, Hackton.</h6>
+                                </div>
+                                <div class="margins">
+                                    <span class="become-span">Languages</span>
+                                    <h6 class="m-0 become-header">HTML/CSS, JavaScript, Ruby, Python.</h6>
+                                </div>
+                                <button type="submit" class="d-flex align-self-center justify-content-center justify-self-center view-page">View page of JD</button>
                             </div>
-                            <div class="margins">
-                                <span class="become-span">Languages</span>
-                                <h6 class="m-0 become-header">HTML/CSS, JavaScript, Ruby, Python.</h6>
-                            </div>
-                            <button type="submit" class="d-flex align-self-center justify-content-center justify-self-center view-page">View page of JD</button>
-                        </div>
-                        <div class="contact-info contact-user d-flex justify-content-around align-items-center border-0">
-                            <i class="fas fa-comments communicate icon-page"></i>
-                            <div class="text-comm">
-                                <h6 class="m-0">Chat:</h6>
-                                <span><a class="become-span span-communicate nounderline" href="chat-detail.html">Open the chat page.</a></span>
+                            <div class="contact-info contact-user d-flex justify-content-around align-items-center border-0">
+                                <i class="fas fa-comments communicate icon-page"></i>
+                                <div class="text-comm">
+                                    <h6 class="m-0">Chat:</h6>
+                                    <span><a class="become-span span-communicate nounderline" href="chat-detail.html">Open the chat page.</a></span>
+                                </div>
                             </div>
                         </div>
                     </div>
