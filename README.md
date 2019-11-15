@@ -105,7 +105,14 @@
 
 * Video Presentation - [https://www.loom.com/share/2c9fe6d080ea4f4eb29a83b5642fa497](https://www.loom.com/share/2c9fe6d080ea4f4eb29a83b5642fa497)
 
+### Contributing
 
+Thank you for considering contributing to this Project. Please read the following guidelines <a href="https://github.com/MarcDiethelm/contributing/blob/master/README.md">here</a> for more details. 
+
+### Tests
+* stickler-ci
+* stylelint
+* [W3C Validator](https://validator.w3.org/#validate_by_upload)
 
 ### Build With
 
