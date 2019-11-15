@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f1eb37ec03.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/chat-page.css">
+    <title>DevIT Chats</title>
+</head>
+<body>
+    <header>
+        <nav class="align-items-center navigation-bar">
+            <span class="nav-icons align-items-center location-icon">   
+                    <i class="fa fa-compass justify-content-center align-items-center compass"></i>
+                    &nbsp;<span class="location">Location: </span>&nbsp;&nbsp;&nbsp;
+                <span class="location-city">Bujumbura
+                    <i class="fas fa-angle-double-down"></i>
+                </span>
+            </span>
+            <span class="nav-icons d-flex align-items-center">
+                <span class="title">                          
+                    <a class="nounderline" href="index.html">
+                        <span class="first-style">Dev<span class="second-style">IT</span></span>
+                    </a>
+                </span>
+            </span>
+            <ul class="nav-icons mb-0">
+                <li>
+                    <i class="far fa-list-alt user-icons"></i>
+                </li>
+                <li>
+                    <i class="far fa-bell user-icons"></i>
+                </li>
+                <li>
+                    |
+                </li>
+                <li>
+                    <i class="fas fa-user-circle user-icons"></i>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="body-page row m-0 d-flex">
+            <div class="user-information">
+                <div class="user-profile">
+                    <div class="profile-info d-flex flex-row">
+                        <img class="img-fluid user-photo" src="http://images2.programmersought.com/421/ef/ef727b53a1911f9371298817f38a1aad.JPEG" alt="men">
+                        <div class="user-info-wrapper d-flex flex-column pl-1 justify-content-center">
+                            <div class="account-info d-flex flex-column justify-content-center">
+                                <h1 class="mb-1 name-title">
+                                    Wilfried
+                                    <i class="fas fa-cog custom-setting"></i>
+                                </h1>
+                                <span class="mb-3 span-info">Status:&nbsp;<span class="inner-span-info">Without premium</span>
+                                </span>
+                            </div>
+                            <hr class="info-line">
+                            <div class="mt-2">
+                                <i class="fa fa-heart-o mr-1"></i>
+                                98
+                                <span class="premium-button ml-1 pr-2">
+                                    <i class="far fa-check-circle ml-1"></i>
+                                    Get Premium
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ul class="d-flex flex-column justify-content-between menu-account">
+                    <li>
+                        <i class="fas fa-users user-icons"></i>
+                        <span class="list-account">Start Meeting</span>
+                    </li>
+                    <li>
+                        <i class="fab fa-centos user-icons"></i>
+                        <span class="list-account">People Nearby</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-video user-icons"></i>
+                        <span class="list-account">Channel and Streaming</span>
+                    </li>
+                    <li>
+                        <a class="nounderline" href="chat-page.html">
+                            <i class="far fa-comments user-icons icon-page"></i>
+                            <span class="list-account">Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <i class="far fa-star user-icons"></i>
+                        <span class="list-account">Featured People</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-gift user-icons"></i>
+                        <span class="list-account">Tokens</span>
+                    </li>
+                    <li>
+                        <i class="fas fa-chart-line user-icons"></i>
+                        <span class="list-account">Raiting of Popularity</span>
+                    </li>
+                    <li>
+                        <i class="far fa-list-alt user-icons"></i>
+                        <span class="list-account">Dialy Tasks</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="chat-container d-flex">
+                <div class="list-chat">
+                    <div class="header-chat d-flex justify-content-around align-items-center">
+                        <div class="d-flex justify-content-center align-items-center">    
+                            <i class="fas fa-search"></i>
+                            <span>&nbsp;Search by users</span>
+                        </div>
+                        <div class="d-flex justify-content-center align-items-center">
+                            <i class="fas fa-edit"></i>
+                        </div>
+                    </div>
+                    <div class="scroll-list-chat"> 
+                        <div class="bubble-chat d-flex align-items-center justify-content-around">
+                            <img class="chat-img" src="http://images2.programmersought.com/421/ef/ef727b53a1911f9371298817f38a1aad.JPEG" alt="">
+                            <div class="chat-elipsis d-flex flex-column align-items-start justify-content-center">
+                                <div class="status-container d-flex justify-content-start align-items-center">    
+                                    <h5 class="m-0">Wilfried</h5>
+                                    <span class="online-mark"></span>
+                                </div>
+                                <span class="buble-chat-text">
+                                    <i class="fas fa-check checked"></i>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium illum optio quaerat, exercitationem veritatis eum eaque minima provident quod labore vel, recusandae libero inventore maiores sint corrupti iure neque ipsam.
+                                </span>                            
+                            </div>
+                        </div>
+                        <div class="bubble-chat d-flex align-items-center justify-content-around">
+                            <img class="chat-img" src="http://images2.programmersought.com/421/ef/ef727b53a1911f9371298817f38a1aad.JPEG" alt="">
+                            <div class="chat-elipsis d-flex flex-column align-items-start justify-content-center">
+                                <div class="status-container d-flex justify-content-start align-items-center">    
+                                    <h5 class="m-0">Jane</h5>                                    
+                                </div>
+                                <span class="buble-chat-text">
+                                    <i class="fas fa-check"></i>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem minus asperiores velit quidem debitis, voluptatem perferendis itaque. Commodi tempore voluptatibus molestias officia officiis et minima dolorem autem. Soluta, atque adipisci.
+                                </span>                            
+                            </div>
+                        </div>
+                        <div class="bubble-chat d-flex align-items-center justify-content-around">
+                            <img class="chat-img" src="http://images2.programmersought.com/421/ef/ef727b53a1911f9371298817f38a1aad.JPEG" alt="">
+                            <div class="chat-elipsis d-flex flex-column align-items-start justify-content-center">
+                                <div class="status-container d-flex justify-content-start align-items-center">    
+                                    <h5 class="m-0">Estan</h5>
+                                    <span class="online-mark"></span>
+                                </div>
+                                <span class="buble-chat-text">
+                                    <i class="fas fa-check checked"></i>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore repudiandae minus qui laboriosam voluptate voluptates ad repellendus nisi error eius blanditiis vitae id ipsum, maiores atque similique numquam debitis commodi?
+                                </span>                            
+                            </div>
+                        </div>
+                        <div class="bubble-chat d-flex align-items-center justify-content-around">
+                            <img class="chat-img" src="http://images2.programmersought.com/421/ef/ef727b53a1911f9371298817f38a1aad.JPEG" alt="">
+                            <div class="chat-elipsis d-flex flex-column align-items-start justify-content-center">
+                                <div class="status-container d-flex justify-content-start align-items-center">    
+                                    <h5 class="m-0">Pierrot</h5>
+                                    <span class="online-mark"></span>
+                                </div>
+                                <span class="buble-chat-text">
+                                    <i class="fas fa-check"></i>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita ducimus amet quidem, velit ut accusamus sapiente, nostrum facilis soluta voluptatibus iusto illo. Molestias neque voluptate accusantium culpa dolorem beatae expedita! 
+                                </span>                            
+                            </div>
+                        </div>
+                        <div class="bubble-chat d-flex align-items-center justify-content-around">
+                            <img class="chat-img" src="http://images2.programmersought.com/421/ef/ef727b53a1911f9371298817f38a1aad.JPEG" alt="">
+                            <div class="chat-elipsis d-flex flex-column align-items-start justify-content-center">
+                                <div class="status-container d-flex justify-content-start align-items-center">    
+                                    <h5 class="m-0">Nganji</h5>
+                                </div>
+                                <span class="buble-chat-text">
+                                    <i class="fas fa-check"></i>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid, voluptates reprehenderit ullam necessitatibus ex porro, quo consequuntur provident nam, laborum nobis beatae ducimus facilis amet facere ad perspiciatis. Vero, dolor.
+                                </span>                            
+                            </div>
+                        </div>
+                        <div class="bubble-chat d-flex align-items-center justify-content-around">
+                            <img class="chat-img" src="http://images2.programmersought.com/421/ef/ef727b53a1911f9371298817f38a1aad.JPEG" alt="">
+                            <div class="chat-elipsis d-flex flex-column align-items-start justify-content-center">
+                                <div class="status-container d-flex justify-content-start align-items-center">    
+                                    <h5 class="m-0">Sabina</h5>
+                                    <span class="online-mark"></span>
+                                </div>
+                                <span class="buble-chat-text">
+                                    <i class="fas fa-check checked"></i>
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nesciunt blanditiis repellat deserunt illo delectus. Ad eius dolorum voluptatum deleniti quis? Magnam ducimus voluptatibus vero voluptatem soluta minus aperiam labore dolorum. 
+                                </span>                            
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-chat-list d-flex">
+                        <div class="chat-menu d-flex justify-content-center align-items-center">
+                            <i class="fab fa-centos"></i>
+                        </div>
+                        <div class="chat-menu menu-item-2 d-flex justify-content-center align-items-center">
+                            <i class="far fa-envelope-open"></i>
+                        </div>
+                        <div class="chat-menu d-flex align-items-center justify-content-center">
+                            <i class="far fa-bookmark"></i>
+                        </div>
+                        <div class="small-chat-menu d-flex align-items-center justify-content-center">
+                            <i class="fas fa-search small-footer-icon"></i>
+                        </div>
+                        <div class="small-chat-menu d-flex align-items-center justify-content-center">
+                            <i class="fab fa-centos small-footer-icon"></i>
+                        </div>
+                        <div class="small-chat-menu d-flex align-items-center justify-content-center">
+                            <i class="fas fa-braille small-footer-icon-bigger d-flex justify-content-center align-items-center"></i>
+                        </div>
+                        <div class="small-chat-menu d-flex align-items-center justify-content-center">
+                            <i class="far fa-comments small-footer-icon"></i>
+                        </div>
+                        <div class="small-chat-menu d-flex align-items-center justify-content-center">
+                            <i class="fas fa-user small-footer-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex flex-column justify-content-center align-items-center chat-detail">
+                    <div class="d-flex justify-content-between align-items-center">
+                            <i class="fa fa-commenting-o"></i>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+</body>
+</html>

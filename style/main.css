@@ -1,0 +1,596 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background-color: #eff0f2;
+  font-family: 'Fredoka One', cursive;
+  font-size: 14px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.icon-page {
+  height: 0.9rem;
+  font-size: 0.8rem;
+  fill: #000;
+}
+
+.navigation-bar {
+  border-radius: 5px 5px 1px 1px;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  width: 100%;
+  background-color: #fff;
+}
+
+.span-icons {
+  height: 0.9rem;
+}
+
+.location-icon {
+  margin-left: 43.2px;
+  display: flex;
+}
+
+.compass {
+  display: flex;
+  background-color: #eff0f2;
+  border-radius: 5px;
+  color: #90969c;
+  font-size: 1.2rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.location {
+  color: #90969c;
+}
+
+.location-city {
+  text-decoration: underline;
+  text-decoration-color: #414464;
+}
+
+.first-style {
+  color: #4e50b8;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+.second-style {
+  color: #f0916e;
+  display: inline-block;
+  font-size: 1.5rem;
+}
+
+ul.nav-icons {
+  display: flex;
+  list-style: none;
+  margin-right: 2.7rem;
+}
+
+ul.nav-icons:hover {
+  cursor: pointer;
+}
+
+ul.nav-icons > li {
+  display: inline;
+  margin: 0 0.7rem;
+  font-size: 1.5rem;
+  color: #c2c8ce;
+}
+
+.user-icons {
+  color: #90969c;
+  height: 1.3rem;
+  font-size: 1.3rem;
+  width: 1.3rem;
+}
+
+main {
+  height: calc(100% - 60px);
+  width: 100%;
+}
+
+.body-page {
+  height: 100%;
+  width: 100%;
+  padding: 0 40px;
+}
+
+.user-information {
+  margin-top: 2.5%;
+  padding: 10px 5px 0 15px;
+}
+
+.user-profile {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 5px 0 15px;
+}
+
+.nounderline {
+  text-decoration: none;
+  color: #414464;
+}
+
+.nounderline:hover {
+  text-decoration: none;
+  color: #4e50b8;
+}
+
+.name-title {
+  font-size: 15px;
+}
+
+.foto-section {
+  border-radius: 5px;
+  margin-top: 2.5%;
+  padding: 10px 15px 6px 15px;
+}
+
+.user-photo {
+  width: 27%;
+  height: 7%;
+  border-radius: 5px;
+}
+
+.user-info-wrapper {
+  width: 65%;
+  min-width: 174px;
+}
+
+.account-info {
+  height: 50%;
+  padding-left: 5px;
+  padding-top: 8px;
+}
+
+.custom-setting {
+  color: #c2c8ce;
+  font-size: 1.2rem;
+  margin-right: 2rem;
+}
+
+.span-info {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: #c2c8ce;
+}
+
+.inner-span-info {
+  color: #4e50b8;
+}
+
+.info-line {
+  border-bottom: 1px #eff0f2 solid;
+  border-width: 100%;
+  margin: 0;
+}
+
+.fa-heart-o {
+  color: #f0916e;
+  font-size: 1rem;
+}
+
+.premium-button {
+  background-color: #4e50b8;
+  border-radius: 5px;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  padding: 2px;
+}
+
+.dev-info {
+  margin: 2.5% 0;
+  padding: 10px 15px 6px 15px;
+}
+
+ul.menu-account {
+  list-style: none;
+  margin-top: 10%;
+  height: 60%;
+  padding-left: 10px;
+}
+
+.list-account {
+  color: #414464;
+  font-family: 'Lato', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-left: 2.5%;
+}
+
+.list-account:hover {
+  cursor: pointer;
+}
+
+.current-profile-photo {
+  position: relative;
+  width: 11%;
+}
+
+.profile-photo {
+  border-radius: 5px;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 100%;
+  background-color: #f0916e;
+  color: white;
+  font-size: 1rem;
+  width: 33.333%;
+  height: 33.333%;
+  top: 33.333%;
+  right: -15%;
+}
+
+div.galerie > .photos {
+  border-radius: 5px;
+  width: 11%;
+}
+
+.elipsis-i {
+  color: #c2c8ce;
+  font-size: 1.5rem;
+  height: auto;
+  margin-left: 1.5%;
+}
+
+.contact-photo {
+  width: 100%;
+  margin-top: 5%;
+  border-radius: 5px;
+  background-image: url("https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+}
+
+.distance {
+  position: absolute;
+  top: 2%;
+  left: 2%;
+  color: white;
+}
+
+.fa-location-arrow {
+  font-size: 1.2rem;
+}
+
+.distance-span {
+  font-size: 1rem;
+}
+
+.link-photo {
+  position: absolute;
+  width: 0.5vw;
+  height: 6vh;
+  top: 2%;
+  right: 2%;
+}
+
+.square {
+  width: 100%;
+  height: 19%;
+  background-color: #a8a8a8;
+}
+
+.orange {
+  background-color: #f0916e;
+}
+
+.contact-buttons {
+  position: absolute;
+  bottom: 2%;
+  width: 100%;
+  height: 7vh;
+}
+
+.social-buttons {
+  width: 10vw;
+  height: 8vh;
+}
+
+.back-button,
+.next-button {
+  border-radius: 5px;
+  width: 3vw;
+  height: 6vh;
+  outline: none;
+  border: none;
+  font-size: 1.2rem;
+  background-color: #fff;
+}
+
+.back,
+.next {
+  font-size: 1.4rem;
+  color: #787878;
+}
+
+.like-button,
+.dislike-button {
+  border-radius: 5px;
+  width: 4vw;
+  outline: none;
+  border: none;
+}
+
+.like-button {
+  background-color: #4e50b8;
+}
+
+.heart {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.dislike-button {
+  background-color: #f0916e;
+}
+
+.no-heart {
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.upgrade-account {
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 10px 15px 6px 15px;
+  width: 80%;
+  margin-bottom: 2.5%;
+}
+
+.upgrade {
+  width: 100%;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+.upgrade i,
+.fa-crown {
+  color: #f0916e;
+  font-size: 1.6rem;
+  margin-right: 1.6rem;
+}
+
+.become-span {
+  color: #c2c8ce;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+.become-header {
+  color: #414464;
+  font-family: 'Lato', sans-serif;
+  font-weight: 500;
+}
+
+.purchase-anchor {
+  background-color: #4e50b8;
+  text-decoration: none;
+  border-radius: 5px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 600;
+  padding: 1% 4%;
+  width: 80%;
+  text-align: center;
+  color: #fff;
+}
+
+.fa-sliders {
+  font-size: 1.6rem;
+  margin-right: 2%;
+  width: 1.6rem;
+  height: auto;
+}
+
+.contact-info {
+  border-bottom: 1px #eff0f2 solid;
+  padding: 3.2% 1%;
+  width: 100%;
+}
+
+.contact-info > span {
+  display: block;
+  margin-bottom: 1%;
+}
+
+.contact-ns {
+  width: 100%;
+}
+
+.contact-info > h5 {
+  display: inline;
+}
+
+.green-circle {
+  border-radius: 100%;
+  background-color: green;
+  height: 1vh;
+  width: 2%;
+}
+
+.background-purple {
+  background-color: #4e50b8;
+  border-radius: 5px;
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.compass2 {
+  font-size: 1.3rem;
+  color: white;
+  width: 1.3rem;
+  height: 1.3rem;
+}
+
+.view-page {
+  background-color: #eff0f2;
+  border-radius: 5px;
+  color: #c2c8ce;
+  font-family: 'Lato', sans-serif;
+  font-size: 0.9rem;
+  border: none;
+  outline: none;
+  padding: 2% 5%;
+  width: 75%;
+  margin-bottom: 2%;
+}
+
+.filter {
+  display: flex;
+}
+
+.filter-title {
+  font-size: 15px;
+}
+
+.margins {
+  margin-bottom: 1.5%;
+}
+
+.contact-user {
+  height: 16%;
+}
+
+.communicate {
+  color: #f0916e;
+  font-size: 3rem;
+  width: 20%;
+  height: 100%;
+}
+
+.text-comm {
+  width: 60%;
+}
+
+@media screen and (max-width: 1024px) {
+  .navigation-bar {
+    display: none !important;
+  }
+
+  .user-information {
+    display: none;
+  }
+
+  .mini-photos,
+  .up-acc-media-query,
+  .filter {
+    display: none !important;
+  }
+
+  .foto-section {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50vh;
+  }
+
+  .contact-photo {
+    margin-top: 0;
+    height: 100%;
+  }
+
+  .link-photo {
+    width: 1.5vw;
+  }
+
+  .dev-info {
+    height: 50vh;
+    width: 100%;
+  }
+
+  .personal-information-contact {
+    width: 100%;
+    height: 100%;
+  }
+
+  .contact-buttons {
+    bottom: -10%;
+    height: 10vh;
+  }
+
+  .social-buttons {
+    width: 10rem;
+    height: 4rem;
+  }
+
+  .like-button,
+  .dislike-button {
+    width: 4rem;
+  }
+
+  .heart,
+  .no-heart {
+    font-size: 2.8rem;
+    width: 2.8rem;
+    height: 2.8rem;
+  }
+
+  .back-button,
+  .next-button {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .prev,
+  .next {
+    font-size: 2.6rem;
+    width: 2.6rem;
+    height: 2.6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .mini-photos {
+    width: 100%;
+    height: 10%;
+  }
+
+  .foto-section {
+    width: 50%;
+    height: calc(100% - 60px);
+  }
+
+  .contact-photo {
+    height: 85%;
+  }
+
+  .new-container {
+    width: 100%;
+    height: 85%;
+    padding-top: 10px;
+  }
+
+  .name-contact {
+    height: 17%;
+  }
+
+  .personal-info-contact {
+    height: 60%;
+  }
+
+  .dev-info,
+  .user-information {
+    width: 23%;
+    height: calc(100% - 60px);
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+
+  .personal-information-contact {
+    height: 90%;
+    padding-top: 10px;
+  }
+}
