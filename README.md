@@ -94,7 +94,7 @@
       - Apply front-end best practices. [Mastery]()
       - Ability to create UIs adjusted to given designs. [Mastery]()
       - Strong English written and verbal communication. Mastery
-      - Ability to communicate information effectively to technical and non-technical people. [Mastery]
+      - Ability to communicate information effectively to technical and non-technical people. [Mastery]()
       - Ability to translate business requirements into software solutions. [Mastery]()
       - Ability to work well in a fast-paced environment under deadlines. [Mastery]()
       - Ability to perform tasks and complete projects with minimal supervision. [Mastery]()
@@ -108,7 +108,7 @@
 * [Bootstrap]()
 * [VSCODE]()
 
-      ### Contact
+### Contact
 * Wilfried - [@WCanirinka](https://twitter.com/WCanirinka)  - [LinkedIn](https://www.linkedin.com/in/wilfried-canirinka-884ab0b6/) - [GitHub](https://github.com/WCanirinka)
 * Project Link [https://wcanirinka.github.io/Developers-social-app/](https://wcanirinka.github.io/Developers-social-app/)
 
