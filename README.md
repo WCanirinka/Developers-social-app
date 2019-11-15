@@ -77,19 +77,24 @@ You should follow the guidelines of the given design, including:
 
   * [Assessment Result](#assessment-criteria)
   
-  Learning objectives
-- Use semantic HTML tags. Mastery
+  You final result is [Mastery]()
+
+  [Learning objectives]()
+
+- Use semantic HTML tags. [Mastery]()
 - Use CSS selectors correctly. Mastery
-- Use HTML elements box model (margin, padding, width, height). Mastery
-- Use industry-standard tools (flexbox) to place elements in the page. Competence
-- Ability to create UIs adaptable to different screen sizes using mediaqueries. Mastery
-- Apply front-end best practices. Mastery
-Ability to create UIs adjusted to given designs. Mastery
-Strong English written and verbal communication. Mastery
-Ability to communicate information effectively to technical and non-technical people. Mastery
-Ability to translate business requirements into software solutions. Mastery
-Ability to work well in a fast-paced environment under deadlines. Mastery
-Ability to perform tasks and complete projects with minimal supervision. Mastery
+- Use HTML elements box model (margin, padding, width, height). [Mastery]()
+- Use industry-standard tools (flexbox) to place elements in the page. [Competence]()
+- Ability to create UIs adaptable to different screen sizes using mediaqueries. [Mastery]()
+- Apply front-end best practices. [Mastery]()
+- Ability to create UIs adjusted to given designs. [Mastery]()
+- Strong English written and verbal communication. Mastery
+- Ability to communicate information effectively to technical and non-technical people. [Mastery]
+- Ability to translate business requirements into software solutions. [Mastery]()
+- Ability to work well in a fast-paced environment under deadlines. [Mastery]()
+- Ability to perform tasks and complete projects with minimal supervision. [Mastery]()
+
+  * [Recommendation](#recommendation)
 
 ### Build With
 
