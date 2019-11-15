@@ -19,7 +19,8 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
-  * [How to Contribbute](#how-to-contribute)
+  * [How to Contribute](#how-to-contribute)
+  * [Link to presentation video](#link-presentation)
   * [Built With](#built-with)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -100,7 +101,9 @@
       - Ability to work well in a fast-paced environment under deadlines. [Mastery]()
       - Ability to perform tasks and complete projects with minimal supervision. [Mastery]()
 
-### How to Contribute
+### Link to presentation video
+
+* Video Presentation - [https://www.loom.com/share/2c9fe6d080ea4f4eb29a83b5642fa497](https://www.loom.com/share/2c9fe6d080ea4f4eb29a83b5642fa497)
 
 
 
