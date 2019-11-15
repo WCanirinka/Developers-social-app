@@ -19,6 +19,7 @@
 ## Table of Contents
 
 * [About the Project](#about-the-project)
+  * [How to Contribbute](#how-to-contribute)
   * [Built With](#built-with)
 * [Contact](#contact)
 * [Acknowledgements](#acknowledgements)
@@ -99,7 +100,9 @@
       - Ability to work well in a fast-paced environment under deadlines. [Mastery]()
       - Ability to perform tasks and complete projects with minimal supervision. [Mastery]()
 
-  * [Recommendation](#recommendation)
+### How to Contribute
+
+
 
 ### Build With
 
