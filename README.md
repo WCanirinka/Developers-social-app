@@ -3,7 +3,7 @@
 
 <br />
 <p align="center">
-   <h3 align="center">Software Developers Social App</h3>
+   <h3 align="center">DevIT App</h3>
 
   <p align="center">
     A simple application for developers.
@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-  I am Wilfried. I am part of the Microverse Project and I build this application as part of the capstone project. The project is about an application that allow developers to be able to chat or find developers in your location and be able to chat about projects that you can work on or organize meet-ups.
+  I am Wilfried. I am part of the Microverse Project and I build this application as part of the capstone project. The project is about an application that allow developers to be able to chat or find developers in your location and be able to chat about projects that you can work on or organize meet-ups and also be able to interact.
 
 * [Project details](#project-details)
 
