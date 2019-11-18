@@ -89,7 +89,7 @@
       [Learning objectives]()
 
       - Use semantic HTML tags. [Mastery]()
-      - Use CSS selectors correctly. Mastery
+      - Use CSS selectors correctly. [Mastery]()
       - Use HTML elements box model (margin, padding, width, height). [Mastery]()
       - Use industry-standard tools (flexbox) to place elements in the page. [Competence]()
       - Ability to create UIs adaptable to different screen sizes using mediaqueries. [Mastery]()
